@@ -1,6 +1,6 @@
 # Lab Report 1
 
-Shenova Davis 
+Shenova Davis  
 CSE 15L
 
 ## 1. cd
