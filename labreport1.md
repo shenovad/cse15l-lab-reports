@@ -13,7 +13,7 @@ The working directory was initially the home directory and when I ran the comman
 b. Share an example of using the command with a path to a directory as an argument.
 ![Image](cddirectory.png)
 
-The working directory was initially the home directory. When I ran the command the working directory changed to 'lecture1' because I used the `cd` command to work in the `lecture1` directory. I got this output because the directory had changed from the home directory to the `lecture1` directory. The output now shows that I am in the `lecture1` directory with the “~/lecture1”. This output was not an error.
+The working directory was initially the home directory. When I ran the command the working directory changed to `lecture1` because I used the `cd` command to work in the `lecture1` directory. I got this output because the directory had changed from the home directory to the `lecture1` directory. The output now shows that I am in the `lecture1` directory with the “~/lecture1”. This output was not an error.
 
 c. Share an example of using the command with a path to a file as an argument.
 ![Image](cdfile.png)
