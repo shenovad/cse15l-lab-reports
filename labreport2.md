@@ -21,10 +21,8 @@ class Handler implements URLHandler {
                 String[] SingleParameter = param.split("=");
                     if (SingleParameter[0].equals("s")) {
                     chatString = chatString + SingleParameter[1] ;
-                    // return String.format("Fruit is %s! Fruits are now %s", SingleParameter[1], chatString);
                     } else if (SingleParameter[0].equals("user")) {
                     userString = userString + SingleParameter[1];
-                   //return String.format("Fruit is %s! Fruits are now %s", SingleParameter[1], userString);
                     }
             }
             String newMessage = userString + ": " + chatString + "\n";
