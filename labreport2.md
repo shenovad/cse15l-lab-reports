@@ -35,3 +35,7 @@ class Handler implements URLHandler {
 ```
 
 ![Image](lab2ss1.png)
+
+
+
+![Image](lab2ss2.png)
