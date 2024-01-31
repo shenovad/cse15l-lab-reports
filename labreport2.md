@@ -22,12 +22,12 @@ class Handler implements URLHandler {
 
             for(String param : parameters){
                 String[] SingleParameter = param.split("=");
-                    if (SingleParameter[0].equals("s")) {
+                if (SingleParameter[0].equals("s")) {
                     chatString = chatString + SingleParameter[1] ;
-                    } 
-                    else if (SingleParameter[0].equals("user")) {
+                } 
+                else if (SingleParameter[0].equals("user")) {
                     userString = userString + SingleParameter[1];
-                    }
+                }
             }
             
             String newMessage = userString + ": " + chatString + "\n";
