@@ -6,6 +6,9 @@ CSE 15L
 ## Part 1
 
 ```
+import java.io.IOException;
+import java.net.URI;
+
 class Handler implements URLHandler {
 
     String newChat = "";
@@ -14,23 +17,37 @@ class Handler implements URLHandler {
         if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("&");
 
-        String chatString = " ";
-        String userString = " ";
+            String chatString = " ";
+            String userString = " ";
 
             for(String param : parameters){
                 String[] SingleParameter = param.split("=");
                     if (SingleParameter[0].equals("s")) {
                     chatString = chatString + SingleParameter[1] ;
-                    }
+                    } 
                     else if (SingleParameter[0].equals("user")) {
                     userString = userString + SingleParameter[1];
                     }
             }
+            
             String newMessage = userString + ": " + chatString + "\n";
             newChat = newChat + newMessage;
             return newChat;
         }
         return "404 Not Found!";
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
     }
 }
 ```
