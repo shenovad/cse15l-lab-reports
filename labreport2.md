@@ -54,13 +54,13 @@ class ChatServer {
 
 ![Image](lab2ss1.png)
 
-1. The methods that are called when this code is run is the handleRequest method, which understands the URL input and prints out the message for the chat. Then the url.getPath().contains method checks if the URL has the message "/add-message" to run the messages. The .split method will create split the input at the "&" and create two separate arguments, one that contains the message and one that contains the user. There is also a .equals() method that checks for the input whether it is "s" or "user" through the if statements.
-2. The arguments for these methods are chatString and userString. These values get updated based on the user input in the URL.
+1. The method that is called when this code is run is the `handleRequest` method, which understands the URL input and prints out the message for the chat. Then the `url.getPath().contains` method checks if the URL has the message "/add-message" to run the messages. The `.split()` method will split the input at the "&" and create two separate arguments, one that contains the message and one that contains the user. There is also a `.equals()` method that checks for the input whether it is "s" or "user" through the if statements. The `main` method is also called to start the server and 
+2. The argument for the `handleRequest` method is the `URI url` which reads the input from the URL on the server. The `url.getPath().contains` takes in a string argument that the method will look for. In this example, the method checks for the "/add-message" in the URL input. The `.split()` method takes in a string argument to create two string parameters
 3. The values get changed based on the message and the user specified in the URL. As the chats appear, the newChat string gets updated to display the chat. This allows the chat to be preserved and displayed even when there is another message being added. 
 
 ![Image](lab2ss2.png)
 1. The methods that are called when this code runs is also the handleRequest method, which takes in the input from the URL and runs through the if statements to output the message. This method utilizes the .contains and .split methods to check if the URL contains an "s" or "user" and splits the URL into two parameters.
-2. The arguments for these methods is the chatString and userString as they both get updated depending on the URL input.
+2. 
 3. The values from these methods changed the newChat string which displays the chat on the server. In the second message, newChat already had the string input from the first user's input.
 
 
