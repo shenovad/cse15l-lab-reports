@@ -59,8 +59,8 @@ class ChatServer {
 3. The value `newChat` gets changed based on the message  the user specified in the URL. As the chats appear, the `newChat` string gets updated to display the chat. This allows the chat to be preserved and displayed even when there is another message being added. 
 
 ![Image](lab2ss2.png)
-1. The methods that are called when this code runs is also the `handleRequest` method, which takes in the input from the URL and runs through the if statements to output the message. This method utilizes the `.contains()` and `.split()` methods to check if the URL contains an "s" or "user" and splits the URL into two parameters.
-2. 
+1. The method that is called when this code runs is also the `handleRequest` method, which takes in the input from the URL and runs through the if statements to output the message. This method utilizes the `.contains()` and `.split()` methods to check if the URL contains an "s" or "user" and splits the URL into two parameters.
+2. The argument for the `handleRequest` method is the `URI url` which will read the input from the URL for the server. 
 3. The values from these methods changed the newChat string which displays the chat on the server. In the second message, newChat already had the string input from the first user's input.
 
 
