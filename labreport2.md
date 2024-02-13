@@ -69,6 +69,7 @@ class ChatServer {
  Private key: /home/.ssh/id_ed25519
  
  Public key: /home/.ssh/id_ed25519. pub
+ 
 ![Image](keys.jpeg)
 
 ![Image](Privateandpublickey.jpeg)
