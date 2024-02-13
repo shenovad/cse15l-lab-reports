@@ -26,7 +26,7 @@ public class ArrayTests {
 ```
 
 3. The symptom:
-[!Image](symptom.png)
+![Image](symptom.png)
 
 4. The bug
 
