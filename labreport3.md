@@ -6,6 +6,7 @@ CSE 15L
 ## Part 1 - Bugs
 
 1. A failure-inducing input for the buggy program:
+   
 ```
 public class ArrayTests {
  @Test
@@ -29,7 +30,7 @@ public class ArrayTests {
    
 ![Image](symptom.png)
 
-5. The bug
+4. The bug
 
 Before:
 ```
