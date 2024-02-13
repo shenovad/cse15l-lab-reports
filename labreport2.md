@@ -69,7 +69,8 @@ class ChatServer {
  Private key: /home/.ssh/id_ed25519
  Public key: /home/.ssh/id_ed25519. pub
 ![Image](keys.jpeg)
-![Image](Privatenandpublickey.jpeg)
+
+![Image](Privateandpublickey.jpeg)
 
 This screenshot shows the login with no password required.
 ![Image](lab2sshlogin.jpeg)
