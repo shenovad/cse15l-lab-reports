@@ -5,7 +5,7 @@ CSE 15L
 
 ## Part 1 - Bugs
 
-1. A failure-inducing input for the buggy program:
+A failure-inducing input for the buggy program:
    
 ```
 public class ArrayTests {
@@ -15,7 +15,7 @@ public class ArrayTests {
    ArrayExamples.reverseInPlace(input2);
    assertArrayEquals(new int[]{4,3,2,1}, input2);
 ```
-2. An input that doesn't induce a failure.
+An input that doesn't induce a failure.
 
 ```
 public class ArrayTests {
@@ -26,11 +26,11 @@ public class ArrayTests {
    assertArrayEquals(new int[]{ 3 }, input1);
 ```
 
-3. The symptom:
+The symptom:
    
 ![Image](symptom.png)
 
-4. The bug
+The bug:
 
 Before:
 ```
