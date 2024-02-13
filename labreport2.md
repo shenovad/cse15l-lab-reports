@@ -66,8 +66,13 @@ class ChatServer {
 
 ## Part 2
 
-I tried creating an SSH key in lab and was not able to do it even with the help of TAs. I tried it again and am facing the same issue. I have attached a screenshot of my work and was told by the TAs to submit the terminal and explain why it was not working. 
-![Image](terminal.png)
+ Private key: /home/.ssh/id_ed25519
+ Public key: /home/.ssh/id_ed25519. pub
+![Image](keys.jpeg)
+![Image](Privatenandpublickey.jpeg)
+
+This screenshot shows the login with no password required.
+![Image](lab2sshlogin.jpeg)
 
 ## Part 3
 From weeks 2 and 3, I learned how to properly use command line commands to access different files and directories. I had vaguely heard of these commands before and used them, but I was able to get clarity on what each command was to be used for. Additionally, I learned how to access a remote server and understood how to use the remote server, for example using SSH and accessing my school account. I also thought using the server to access and manipulate a webpage was very interesting and I had fun trying the different commands and methods. 
