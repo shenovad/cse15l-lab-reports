@@ -52,7 +52,7 @@ After:
  }
 ```
 
-In the original code, the method was overwriting the elements in the array and the original elements were not being preserved. With the changes, we assign the array element temporarily in the variable temp, then set the index to be the other index at the element of the `arr.length - index[i] - 1` to properly reverse the list. Finally, it sets that index with the temporary placeholder variable to execute the reverse list. 
+In the original code, the method was overwriting the elements in the array and the original elements were not being preserved. With the changes, we assign the array element temporarily in the variable `temp`, then set the index to be the other index at the element of the `arr.length - index[i] - 1` to properly reverse the list. Finally, it sets that index with the temporary placeholder variable to execute the reverse list. 
 
 
 ## Part 2 - Researching Commands
@@ -279,7 +279,7 @@ Example 2:
 /home/docsearch/.git/branches
 ```
 
-The `find -empty` command allows us to find files or directories that are empty. In the first example, I searched for all the files that were empty using `find ~ -type f -empty", where the output displayed all the files that are empty with no contents. In the next example, I searched for directories that are empty using `find ~ -type d -empty`. This displayed the paths for the directories that do not contain any files. This command can be useful for us to see the contents of our files and directories, which can help us understand our working directory better.
+The `find -empty` command allows us to find files or directories that are empty. In the first example, I searched for all the files that were empty using `find ~ -type f -empty", where the output displayed all the files that were empty with no contents. In the next example, I searched for directories that are empty using `find ~ -type d -empty`. This displayed the paths for the directories that do not contain any files. This command can be useful for us to see the contents of our files and directories, which can help us understand our working directory better.
 
 Sources used:
 - https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
