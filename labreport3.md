@@ -112,9 +112,9 @@ Example 2:
 The `find` command paired with `-type` allows us to find an element of a certain type in our directory. `-type d` outputs all of the directories that are found in the file. Similarily `find ~ -type f -name ".*sample"` outputs all of the files that are `.sample` types. This command can be useful in understanding what kinds of files and directories are in our working directory to understand its contents and uses. 
 
 Sources used:
-(https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
-(https://linuxhandbook.com/find-command-examples/)
-(https://www.redhat.com/sysadmin/linux-find-command)
+- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+- https://linuxhandbook.com/find-command-examples/
+- https://www.redhat.com/sysadmin/linux-find-command
 
 #### `find -name`
 
@@ -147,9 +147,9 @@ Example 2:
 The `find -name` command allows us to find certain files and directories by name or specification. In the first example, I did `find . -name ".*"` to look for the hidden files in `docsearch`. In the second example, I searched for `.sample` files that have been modified in the last day. The `find -name` command can be useful to find specific files or directories in our working directory and can aid in simplifying our search. 
 
 Sources used:
-(https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
-(https://www.redhat.com/sysadmin/linux-find-command)
-(https://www.tutorialspoint.com/working-with-hidden-files-in-linux#:~:text=Find%20Hidden%20Files%20Using%20Find%20Command&text=To%20find%20hidden%20files%20using,that%20starts%20with%20a%20dot.)
+- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+- https://www.redhat.com/sysadmin/linux-find-command
+- https://www.tutorialspoint.com/working-with-hidden-files-in-linux#:~:text=Find%20Hidden%20Files%20Using%20Find%20Command&text=To%20find%20hidden%20files%20using,that%20starts%20with%20a%20dot.
 
 #### `find -empty`
 
@@ -282,8 +282,8 @@ Example 2:
 The `find -empty` command allows us to find files or directories that are empty. In the first example, I searched for all the files that were empty using `find ~ -type f -empty", where the output displayed all the files that are empty with no contents. In the next example, I searched for directories that are empty using `find ~ -type d -empty`. This displayed the paths for the directories that do not contain any files. This command can be useful for us to see the contents of our files and directories, which can help us understand our working directory better.
 
 Sources used:
-(https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
-(https://www.redhat.com/sysadmin/linux-find-command)
+- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+- https://www.redhat.com/sysadmin/linux-find-command
 
 #### `find -size`
 
@@ -418,5 +418,5 @@ Example 2:
 The `find -size` command allows us to find files of a specific size. In the first example, I used the command `find -type f -size -1k` to look for files that are less than 1 kilobyte in size. In the second example, I specified the command using `find ~ -size +10c -size -100c` to specify a range for the size. This command outputted files that are greater than 10 bytes but less than 100 bytes. This command can be useful when looking for specific file sizes that may be needed for our programs. It can also show what files are larger in size, which can take up more capacity in our working directory.
 
 Sources used:
-(https://linuxhandbook.com/find-command-examples/)
-(https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+- https://linuxhandbook.com/find-command-examples/
+- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
