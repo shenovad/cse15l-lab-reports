@@ -57,9 +57,11 @@ In the original code, the method was overwriting the elements in the array and t
 
 ## Part 2 
 
-`-find` Command:
+### `-find` Command:
 
-### `find -type`
+#### `find -type`
+
+Example 1:
 ```
 [user@sahara ~/docsearch]$ find ~ -type d
 /home
@@ -88,6 +90,7 @@ In the original code, the method was overwriting the elements in the array and t
 [user@sahara ~/docsearch]$
 ```
 
+Example 2:
 ```
 [user@sahara ~/docsearch]$ find ~ -type f -name "*.sample"
 /home/docsearch/.git/hooks/pre-receive.sample
@@ -108,14 +111,16 @@ In the original code, the method was overwriting the elements in the array and t
 
 The `find` command paired with `-type` allows us to find an element of a certain type in our directory. `-type d` outputs all of the directories that are found in the file. Similarily `find ~ -type f -name ".*sample"` outputs all of the files that are `.sample` types. This command can be useful in understanding what kinds of files and directories are in our working directory to understand its contents and uses. 
 
-### `find -name`
+#### `find -name`
 
+Example 1:
 ```
 [user@sahara ~/docsearch]$ find . -name ".*"
 .
 ./.git
 ```
 
+Example 2:
 ```
 [user@sahara ~/docsearch]$ find -name "*.sample" -mtime -1
 ./.git/hooks/pre-receive.sample
@@ -136,8 +141,9 @@ The `find` command paired with `-type` allows us to find an element of a certain
 
 The `find -name` command allows us to find certain files and directories by name or specification. In the first example, I did `find . -name ".*"` to look for the hidden files in `docsearch`. In the second example, I searched for `.sample` files that have been modified in the last day. The `find -name` command can be useful to find specific files or directories in our working directory and can aid in simplifying our search. 
 
-### `find -empty`
+#### `find -empty`
 
+Example 1:
 ```
 [user@sahara ~/docsearch]$ find ~ -type f -empty
 /home/docsearch/technical/biomed/bcr303.txt
@@ -255,7 +261,7 @@ The `find -name` command allows us to find certain files and directories by name
 /home/docsearch/technical/biomed/bcr571.txt
 /home/docsearch/technical/biomed/1477-7525-1-10.txt
 ```
-
+Example 2:
 ```
 [user@sahara ~/docsearch]$ find ~ -type d -empty
 /home/docsearch/.git/objects/info
@@ -265,8 +271,9 @@ The `find -name` command allows us to find certain files and directories by name
 
 The `find -empty` command allows us to find files or directories that are empty. In the first example, I searched for all the files that were empty using `find ~ -type f -empty", where the output displayed all the files that are empty with no contents. In the next example, I searched for directories that are empty using `find ~ -type d -empty`. This displayed the paths for the directories that do not contain any files. This command can be useful for us to see the contents of our files and directories, which can help us understand our working directory better. 
 
-### `find -size`
+#### `find -size`
 
+Example 1:
 ```
 [user@sahara ~/docsearch]$ find -type f -size -1k
 ./technical/biomed/bcr303.txt
@@ -385,6 +392,7 @@ The `find -empty` command allows us to find files or directories that are empty.
 ./technical/biomed/1477-7525-1-10.txt
 ```
 
+Example 2:
 ```
 [user@sahara ~/docsearch]$ find ~ -size +10c -size -100c
 /home/docsearch/.git/HEAD
