@@ -38,4 +38,4 @@ To re-run the test I pressed `<up>` 5 times to run `bash test.sh` and pressed `<
 
 ![Image](labreport4step9.png)
 
-To commit and push my changes I pressed `git add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>`. Lastly, I pressed `git push origin main <enter>` to push my edits to github. 
+To commit and push my changes I pressed `git -add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>`. Lastly, I pressed `git push origin main <enter>` to push my edits to github. 
