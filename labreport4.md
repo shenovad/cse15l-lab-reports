@@ -22,7 +22,7 @@ To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the 
 
 ## Step 8 
 
-To re-run the test I pressed <up> 5 times to run `bash test.sh` and pressed `<enter>`.
+To re-run the test I pressed `<up>` 5 times to run `bash test.sh` and pressed `<enter>`.
 
 ## Step 9 
 
