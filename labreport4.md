@@ -5,7 +5,7 @@ CSE 15L
 
 ## Step 4
 
-
+![Image]() 
 The keys I pressed were `ssh ssdavis@ieng6.ucsd.edu <enter>`. This logged me into my remote server. I then pressed `cs15lwi24<enter>` to go into our course. 
 
 ## Step 5
