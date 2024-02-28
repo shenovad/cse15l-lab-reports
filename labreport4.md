@@ -32,7 +32,7 @@ To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the 
 
 ![Image](labreport4step8.png)
 
-To re-run the test I pressed `<up>` 5 times to run `bash test.sh` and pressed `<enter>`.
+To re-run the test I pressed `<up>` 5 times to run `bash test.sh` and pressed `<enter>` because that command was in my history.
 
 ## Step 9 
 
