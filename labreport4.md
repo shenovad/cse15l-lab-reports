@@ -26,7 +26,7 @@ The keys I pressed were `ls` to see the repository name. I then pressed `cd lab7
 
 ![Image](labreport4step7.png)
 
-To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the `j` key to move down the file and used the `l` key to move the cursor to the right to be over the 1 in `index1`. I pressed the `x` key to delete the 1 and pressed `i` to be able to insert. I then pressed `2` to add the 2 and made the variable `index2`. Finally, I pressed `<esc>` to leave insert mode, and pressed `:x <enter>` to exit vim. 
+To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the `j` key to move down the file and used the `l` key to move the cursor to the right to be over the 1 in `index1`. I pressed the `x` key to delete the 1 and pressed `i` to be able to insert. I then pressed `2` to add the 2 and made the variable `index2`. Finally, I pressed `<esc>` to leave insert mode, and pressed `:w <enter>` to save and `:q <enter` to exit vim. 
 
 ## Step 8 
 
