@@ -38,6 +38,6 @@ To re-run the test I pressed `<up>` 3 times to run `bash test.sh` and pressed `<
 
 ![Image](labreport4step9.png)
 
-To commit and push my changes I pressed `git add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>` to commit my changes. `git add` will allow us to save the changes to the file, and `git commit` will let us commit the changed files to our local repository. Lastly, I pressed `git push origin main <enter>` to push my edits to Git Hub. 
+To commit and push my changes I pressed `git add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>` to commit my changes. `git add` will allow us to save the changes to the file and stage them, and `git commit` will let us commit the changed files to our local repository. Lastly, I pressed `git push origin main <enter>` to push my edits to Git Hub. 
 
 Sources used: https://git-scm.com/docs
