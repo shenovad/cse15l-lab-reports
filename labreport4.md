@@ -26,7 +26,7 @@ The keys I pressed were `ls` to see the repository name. I then pressed `cd lab7
 
 ![Image](labreport4step7.png)
 
-To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the `j` key to move down the file and used the `l` key to move the cursor to the right to be over the 1 in `index1`. I pressed the `x` key to delete the 1 and pressed `i` to be able to insert. I then pressed `2` to add the 2 and made the variable `index2`. Finally, I pressed `<esc>` to leave insert mode, and pressed `:w <enter>` to save and `:q <enter` to exit vim. 
+To edit the file, I pressed `vim ListExamples.java <enter>`, then I pressed the `j` key to move down the file to line 44 and used the `l` key to move the cursor to the right 12 times to be over the 1 in `index1`. I pressed the `x` key to delete the 1 and pressed `i` to be able to insert. I then pressed `2` to add the 2 and made the variable `index2`. Finally, I pressed `<esc>` to leave insert mode, and pressed `:w <enter>` to save and `:q <enter` to exit Vim. 
 
 ## Step 8 
 
@@ -38,4 +38,4 @@ To re-run the test I pressed `<up>` 3 times to run `bash test.sh` and pressed `<
 
 ![Image](labreport4step9.png)
 
-To commit and push my changes I pressed `git -add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>` to commit my changes. Lastly, I pressed `git push origin main <enter>` to push my edits to Git Hub. 
+To commit and push my changes I pressed `git add ListExamples.java <enter>` then pressed `git commit -m "Edited ListExamples.java" <enter>` to commit my changes. `git add` will allow us to save the changes to the file, and `git commit` will let us commit the changed files to our local repository. Lastly, I pressed `git push origin main <enter>` to push my edits to Git Hub. 
