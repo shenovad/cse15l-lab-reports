@@ -17,7 +17,7 @@ Script for `test.sh`:
 
 `ListExamples.java`: 
 ![Image](beforeChange.jpeg) 
-`ListExamplesTests.java`"
+`ListExamplesTests.java`:
 ![Image](testerFile.jpeg) 
 
 ### TA Response
