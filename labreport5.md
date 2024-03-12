@@ -17,12 +17,13 @@ Script for `test.sh`:
 
 `ListExamples.java`: 
 ![Image](beforeChange.jpeg) 
+
 `ListExamplesTests.java`:
 ![Image](testerFile.jpeg) 
 
 ### TA Response
 
-Hello! Your issue seems to be with how the method is adding elements to the new array. I would advise you to check your method and look carefully at what it is doing to add elements to the array. 
+Hello! Your issue seems to be with how the `filter` method is adding elements to the new array. I would advise you to check your method and look carefully at what it is doing to add elements to the array. 
 
 ### Student using TA guidance
 
@@ -48,7 +49,7 @@ Making changes in the file and test working:
    - test.sh
 ```
 
-3. The contents of each file before fixing the bug
+2. The contents of each file before fixing the bug
 
 `ListExamples.java`
 ![Image](beforeChange.jpeg) 
@@ -57,11 +58,11 @@ Making changes in the file and test working:
 `test.sh`
 ![Image](test.shfile.jpeg) 
 
-5. The full command line (or lines) you ran to trigger the bug
+3. The full command line (or lines) you ran to trigger the bug
    
 ![Image](testFail.jpeg) 
 
-7. A description of what to edit to fix the bug
+4. A description of what to edit to fix the bug
    - I needed to fix the code at line 15 where `result.add(0,s)` should be `result.add(s)` so that the elements are added to the end of the list and the ordering of the list is preserved.
 ![Image](makingChange.jpeg) 
 
