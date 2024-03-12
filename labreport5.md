@@ -12,7 +12,7 @@ Hello! I am currently working on my file for `test.sh` to test the methods in `L
 Symptom: 
 ![Image](testFail.jpeg) 
 
-Script for test.sh:
+Script for `test.sh`:
 ![Image](test.shfile.jpeg) 
 
 `ListExamples.java` File and Tester: 
