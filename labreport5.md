@@ -38,9 +38,12 @@ Making changes in the file and test working:
 ![Image](filestructure.jpeg)
 
 3. The contents of each file before fixing the bug
-   
+
+`ListExamples.java`
 ![Image](beforeChange.jpeg) 
+`ListExamplesTests.java`
 ![Image](testerFile.jpeg)
+`test.sh`
 ![Image](test.shfile.jpeg) 
 
 5. The full command line (or lines) you ran to trigger the bug
