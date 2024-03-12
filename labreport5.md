@@ -47,7 +47,6 @@ Making changes in the file and test working:
    - StringChecker.class
    - test.sh
 ```
-![Image](filestructures.jpeg)
 
 3. The contents of each file before fixing the bug
 
