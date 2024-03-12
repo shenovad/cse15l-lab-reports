@@ -34,15 +34,19 @@ Tests working:
 ### SetUp Necessities
 
 1. The file & directory structure needed
+   
 ![Image](filestructure.jpeg)
 
 3. The contents of each file before fixing the bug
+   
 ![Image](beforeChange.jpeg) 
 ![Image](testerFile.jpeg)
 ![Image](test.shfile.jpeg) 
 
 5. The full command line (or lines) you ran to trigger the bug
+   
 ![Image](testFail.jpeg) 
+
 7. A description of what to edit to fix the bug
    - I needed to fix the code at line 15 where `result.add(0,s)` should be `result.add(s)` so that the elements are added to the end of the list and the ordering of the list is preserved.
 ![Image](makingChange.jpeg) 
