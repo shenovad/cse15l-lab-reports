@@ -15,7 +15,7 @@ Symptom:
 Script for test.sh:
 ![Image](test.shfile.jpeg) 
 
-List Examples File and Tester: 
+`ListExamples.java` File and Tester: 
 ![Image](beforeChange.jpeg) 
 ![Image](testerFile.jpeg) 
 
@@ -27,7 +27,7 @@ Hello! Your issue seems to be with how the method is adding elements to the new 
 
 I checked my `filter` method and found that the `.add` method was adding the elements to the beginning of the array instead of to the end to maintain the structure. I used Vim to edit the file and now the tests pass, as seen below. 
 
-Tests working:
+Making changes in the file and test working:
 ![Image](makingChange.jpeg) 
 ![Image](testWorkings.jpeg) 
 
