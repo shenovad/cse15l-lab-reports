@@ -15,8 +15,9 @@ Symptom:
 Script for `test.sh`:
 ![Image](test.shfile.jpeg) 
 
-`ListExamples.java` and `LisExamplesTests.java`: 
+`ListExamples.java`: 
 ![Image](beforeChange.jpeg) 
+`ListExamplesTests.java`"
 ![Image](testerFile.jpeg) 
 
 ### TA Response
