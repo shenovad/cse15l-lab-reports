@@ -35,7 +35,18 @@ Making changes in the file and test working:
 ### SetUp Necessities
 
 1. The file & directory structure needed
-   
+```
+- lab 7-1
+   - lib
+      - hamcrest-core-1.3.jar
+      - junit-4.13.2.jar
+   - ListExamples.class
+   - ListExamples.java
+   - ListExamplesTest.class
+   - ListExamplesTest.java
+   - StringChecker.class
+   - test.sh
+```
 ![Image](filestructures.jpeg)
 
 3. The contents of each file before fixing the bug
