@@ -7,7 +7,7 @@ CSE 15L
 
 ### Student EdStem Submission 
 
-Hello! I am currently working on my file for `test.sh` to test the methods in `ListExamples.java`. I am getting this error with my tester file and am not sure where the issue lies. I believe it is in my `filter` method, but I don't see where the issue is. Could someone assist?
+Hello! I am currently working on my file for `test.sh` to test the methods in `ListExamples.java`. I am getting this error with my tester file and I'm not sure where the issue lies. I believe it is in my `filter` method, but I don't see where the issue is. Could someone assist?
 
 Symptom: 
 ![Image](testFail.jpeg) 
@@ -35,7 +35,7 @@ Making changes in the file and test working:
 
 ### SetUp Necessities
 
-The file & directory structure needed
+##### The file & directory structure needed
    
 ```
 - lab 7-1
@@ -50,7 +50,7 @@ The file & directory structure needed
    - test.sh
 ```
 
-The contents of each file before fixing the bug
+##### The contents of each file before fixing the bug
 
 `ListExamples.java`
 ![Image](beforeChange.jpeg) 
@@ -59,11 +59,12 @@ The contents of each file before fixing the bug
 `test.sh`
 ![Image](test.shfile.jpeg) 
 
-The full command line (or lines) you ran to trigger the bug
+##### The full command line (or lines) I ran to trigger the bug
    
 ![Image](testFail.jpeg) 
 
-A description of what to edit to fix the bug
+##### A description of what to edit to fix the bug
+
    - I needed to fix the code at line 15 where `result.add(0,s)` should be `result.add(s)` so that the elements are added to the end of the list and the ordering of the list is preserved.
 ![Image](makingChange.jpeg) 
 
