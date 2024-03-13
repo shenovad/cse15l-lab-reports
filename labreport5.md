@@ -35,7 +35,7 @@ Making changes in the file and test working:
 
 ### SetUp Necessities
 
-1. The file & directory structure needed
+The file & directory structure needed
    
 ```
 - lab 7-1
@@ -50,7 +50,7 @@ Making changes in the file and test working:
    - test.sh
 ```
 
-2. The contents of each file before fixing the bug
+The contents of each file before fixing the bug
 
 `ListExamples.java`
 ![Image](beforeChange.jpeg) 
@@ -59,11 +59,11 @@ Making changes in the file and test working:
 `test.sh`
 ![Image](test.shfile.jpeg) 
 
-3. The full command line (or lines) you ran to trigger the bug
+The full command line (or lines) you ran to trigger the bug
    
 ![Image](testFail.jpeg) 
 
-4. A description of what to edit to fix the bug
+A description of what to edit to fix the bug
    - I needed to fix the code at line 15 where `result.add(0,s)` should be `result.add(s)` so that the elements are added to the end of the list and the ordering of the list is preserved.
 ![Image](makingChange.jpeg) 
 
