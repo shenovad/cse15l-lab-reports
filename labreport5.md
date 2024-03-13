@@ -27,7 +27,7 @@ Hello! Your issue seems to be with how the `filter` method is adding elements to
 
 ### Student using TA guidance
 
-I checked my `filter` method and found that the `.add` method was adding the elements to the beginning of the array instead of to the end to maintain the structure. I used Vim to edit the file and now the tests pass, as seen below. 
+I checked my `filter` method and found that the `.add()` method was adding the elements to the beginning of the array instead of to the end to maintain the structure. I used Vim to edit the file and now the tests pass, as seen below. 
 
 Making changes in the file and test working:
 ![Image](makingChange.jpeg) 
